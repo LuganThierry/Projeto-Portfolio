@@ -1,0 +1,90 @@
+/* HEADER */
+.titulo {
+    background: url(./images/header.jpg);
+
+    padding: 50px;
+}
+
+.foto {
+    max-width: 15%;
+    border-radius: 100px;
+    border: 4px solid rgb(255, 114, 84);
+}
+
+.nome {
+    display: inline-block;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 125px;
+    margin-left: 50px;
+}
+
+/* MAIN */
+
+.itens {
+    border: 5px solid rgb(255, 114, 84);
+    border-radius: 40px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.itens:hover {
+    background-color:rgb(255, 244, 208);
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px;
+}
+
+.his {
+    max-width: 300px;
+    border-radius: 40px;
+}
+
+.info_title {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list {
+    margin-left: 75px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+.navegacao {
+    margin: 20px 26%;
+    max-width: 50%;
+}
+
+#contatos {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+.icon {
+    max-width: 70px;
+    padding: 15px;
+}
+
+.icon:hover{
+    background-color: rgb(255, 114, 84);
+    border-radius: 50px;
+}
+
+.copyright {
+    text-align: center;
+}
